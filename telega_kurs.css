@@ -1,0 +1,696 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #7581a1;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+/*logo fon*/
+
+.logo {
+    display: block;
+    width: 181px;
+    height: 49px;
+    background-image: url(telega_kurs/sub.png);
+}
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 53px;
+    margin-bottom: 205px;
+}
+.page-header {
+    background-image: url(telega_kurs/f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/*
+    растянуть изображ*/
+    padding-bottom: 320px;
+    position: relative;
+    background-position: center;
+}
+
+/*222*/
+
+.screen-png {
+    width: 673px;
+    height: 556px;
+    display: block;
+    background-image: url(telega_kurs/444.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 189px;
+}
+.page-company {
+    background-image: url(telega_kurs/ff.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 106px 0 100px;
+}
+.page-company ul{
+    margin: 0;
+    padding: 0;
+}
+.list-compani-item {
+    display: block;
+
+}
+.list-compani {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+.compani-o {
+    background-image: url(telega_kurs/f2.png);
+    width: 200px;
+    height: 69px;
+}
+.compani-t {
+    background-image: url(telega_kurs/f1.png);
+    width: 200px;
+    height: 69px;
+}
+.compani-th {
+    background-image: url(telega_kurs/f3.png);
+    width: 200px;
+    height: 69px;
+}
+.compani-f {
+    background-image: url(telega_kurs/f4.png);
+    width: 200px;
+    height: 69px;
+}
+
+/*blok #1*/
+
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+    max-width: 540px;
+    line-height: 1.1;
+    letter-spacing: -2.5px;
+    margin-bottom: 65px;
+}
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6e7ea9;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    /*ставим в сторчку*/
+    display: flex;
+}
+.nav>li {
+    padding: 0 15px;
+}
+.nav-item {
+    color: #e3f3ff;
+}
+.btn-primary /*knopka*/ {
+    background-color: #1085e4;
+    border: 1px solid #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 30px;
+    letter-spacing: 2.5px;
+    transition: 1s;
+}
+.btn-primary:hover {
+    color: #1085e4;
+    background-color: #fff;
+}
+.btn-secondary {
+    background-color: #cddbe8;
+    color: #7e8bae;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    padding: 20px 100px;
+    border-radius: 30px;
+    border: 1px solid #cddbe8;
+    transition: 1s;
+}
+.btn-secondary:hover {
+    background-color: #fff;
+}
+.btn-free {
+    padding: 20px 58px;
+
+    font-weight: 400;
+    background-color: #1085e4;
+}
+
+/*blok #2*/
+
+.grid h2 {
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+.btn-info {
+    color: #8085b1;
+    background-color: transparent; /*прозраный*/
+    border: 1px solid #dce1e5;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.btn-info:hover {
+    color: #fff;
+    background-color: #94b4cc;
+    border: 1px solid #94b4cc;
+}
+.btn-group a + a {
+    margin-left: 15px;
+}
+.grid h2 span {
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+..grid-item a {
+    font-size: 14px;
+    color: #1085e4;
+
+}
+
+/*blok #3*/
+
+.list-atat {
+    display: flex;
+    list-style-type: none;
+    /*контент по центру*/
+    justify-content:space-around;
+}
+.list-atat>li {
+    font-size: 12px;
+    color: #1085e4;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2.7px;
+}
+.list-atat>li>span {
+    display: block;
+    font-size: 60px;
+    color: #bacbdc;
+    margin-bottom: 23px;
+    letter-spacing: 0;
+}
+
+/*.title-h2*/
+
+.title-h2 {
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.title-h2 span{
+    display: block;
+    font-size: 16px;
+    color: #1085e4;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1;
+    text-shadow: 40px;
+}
+.page-stat .title-h2, .page-screen {
+    text-align: center;
+    margin: 0 auto 60px;
+}
+.page-stat .title-h2 {
+    max-width: 500px;
+}
+.page-stat, .page-screen {
+    background-color: #edf6ff;
+}
+.page-stat {
+    padding: 116px 0 96px 0;
+}
+.page-screen {
+    padding: 80px 0 0 0;
+}
+.screen {
+    margin-bottom: -7px;
+}
+.page-screen .title-h2 {
+    font-size: 40px;
+}
+.page-screen .title-h2 span {
+    font-size: 18px;
+}
+
+.page-plan {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.box-price {
+    display: flex;
+    justify-content: space-around;
+}
+.box-price-item h3 {
+    font-size: 40px;
+}
+.box-price-item p {
+    font-size: 14px;
+    color: #0084ff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.page-plan, .title-h2 {
+    text-align: center;
+}
+.box-price-item {
+    flex-basis: 32%;
+    position: relative;
+  /*распидарасит равномерно*/
+    padding: 50px 0 95px 0;
+    background-color: #f5faff;
+}
+
+.box-price-item.active {
+    background-color: #192b59;
+    color: #fff;
+}
+.box-price-item ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+.box-price-item li {
+    margin-top: 20px;
+}
+.box-price-item li:last-child {
+    margin-bottom: 50px;
+}
+.box-price-item span {
+    font-size: 20px;
+}
+.box-price-item .aa:hover {
+    background-color: #192b59;
+}
+
+/*после 53к*/
+
+.page-app {
+    padding: 20px 0;
+}
+.wrap{
+    position: relative;
+}
+a.video-app {
+    position: absolute;
+    top: 60px;
+    right: -132px;
+}
+.page-app-img {
+    height: 500px;
+    width: 500px;
+}
+.content-app {
+    width: 55%;
+    position: relative;
+    padding: 69px 0 90px 0;
+}
+.content-app .title-h2 {
+    margin-bottom: 36px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.page-app-text{
+    font-size: 20px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: #c4d2dd;
+    margin-top: 26px;
+    margin-bottom: 20px;
+    letter-spacing: 3.5px;
+}
+.page-app-list {
+    padding: 0;
+    list-style-type: none;
+    margin-left: -7px;
+}
+.page-app-list>li {
+    display: inline-block;
+}
+.page-app-list>li>a {
+    background-image: url(telega_kurs/app-stores.png);
+    display: block;
+    width: 170px;
+    height: 60px;
+}
+.page-app-list>li>a.page-app-ios {
+    background-position: -172px 0px;
+}
+/*page-analytics*/
+
+.page-analytics .title-h2 {
+    max-width: 560px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+.setting-icon {
+    display: block;
+    background-image: url(telega_kurs/icon2.png);
+    background-repeat: no-repeat;
+
+    width: 62px;
+    height: 62px;
+}
+
+.page-analytics .title-h2 {
+    margin-bottom: 36px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.page-analytics{
+    background-image: url(telega_kurs/fon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flex-analytics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-aaaaaaaa {
+    padding: 60px 0 80px 50px;
+}
+p.page-analytics-text {
+    margin-bottom: 54px;
+}
+/*screen 3*/
+
+.page-appp {
+    background-image: url(telega_kurs/fon3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-position: center;
+}
+.page-appp .title-h2 {
+    max-width: 800px;
+    margin-top: 12px;
+
+    text-align: left;
+    text-transform: capitalize;
+}
+.page-appp p{
+    margin-bottom: 60px;
+}
+.page-appp-pading {
+    padding: 130px 60px 130px 0;
+    margin-left: 40px;
+}
+
+/*svg*/
+
+.page-clients {
+    position: relative;
+}
+
+.page-clients::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background-image:url(telega_kurs/sinka.png);
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1px;
+}
+.page-clients .title-h2 {
+    color: #fff;
+    text-align: left;
+    padding-top: 50px;
+}
+.page-clients span {
+    color: #9ec8ff;
+}
+.box-clients {
+    display: flex;
+    justify-content: space-between;
+}
+.box-clients-item {
+    background-color: #fff;
+    padding: 21px 42px;
+    border-radius: 10px;
+    flex-basis: 31.5%;
+    font-size: 14px;
+    box-sizing: border-box;
+    box-shadow: 0 9px 20px #4b74a3;
+}
+.box-clients-item .name {
+    font-size: 22px;
+    color: #000958;
+    font-weight: 600;
+    margin-bottom: 0;
+    letter-spacing: -0.6px;
+
+    line-height: 1px;
+}
+.box-clients-item .position {
+    color: #1085e4;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box-info {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.box-info>div {
+    padding-left: 10px;
+}
+
+/*градиент*/
+
+.page-subscribe {
+    background: rgb(3,0,55);
+background: linear-gradient(90deg, rgba(3,0,55,1) 0%, rgba(47,66,224,1) 47%, rgba(91,179,228,1) 100%);
+    padding: 40px 0;
+}
+.tuda {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont {
+        max-width: 515px;
+}
+.title {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.cont .btn-primary {
+    padding 20px;
+    margin: 10px;
+}
+.cont .btn-primary:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.title span {
+    display: block;
+    font-size: 16px;
+    color: #1085e4;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1;
+    text-shadow: 40px;
+}
+.pp {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.box-subscribe-user .btn-primary {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 310px;
+    padding: 17px 50px;
+}
+.box-subscribe-user {
+    position: relative;
+}
+.box-subscribe-user input {
+    border: 3px solid #3f5cd1;
+    font-size: 14PX;
+    color: #b1c3ee;
+    border-radius: 45px;
+    background-color: transparent;
+    padding: 25px 230px 25px 37px;
+    display: block;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);/*
+    тень*/
+}
+.box-subscribe-user input:focus {
+    outline: none;
+}
+.box-subscribe-child {
+    flex-basis: 49%;
+}
+
+.box-subscribe-user input::-webkit-input-placeholder {color:#b1c3ee;}
+.box-subscribe-user input::-moz-placeholder          {color:#b1c3ee;}/* Firefox 19+ */
+.box-subscribe-user input:-moz-placeholder           {color:#b1c3ee;}/* Firefox 18- */
+.box-subscribe-user input:-ms-input-placeholder      {color:#b1c3ee;}
+
+.page-grid {
+    padding: 70px 0;
+}
+.page-grid a {
+    color: #1085e4;
+    font-weight: bold;
+    font-size: 14px;
+}
+.grid {
+    display: grid;
+    grid-template-areas:
+        "a b c"
+        "d b c"
+        "d f g"
+        "e f g"
+        "e h h";
+    max-width: 1110px;
+    margin: 0 auto;
+    grid-gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-icon {
+    background-image: url(telega_kurs/iconi.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 79px;
+    height: 82px;
+    margin: 0 auto 36px;
+    background-position: center;
+}
+.grid-icon-1 {
+    background-image: url(telega_kurs/iconi.png);
+}
+.grid-item {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 9px 20px #dbdbdb;
+    padding: 40px 29px 64px;
+}
+
+.grid-item h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #192b59;
+    margin-bottom: 18px;
+}
+
+.grid h2 {
+    margin-bottom: 0;
+    line-height: 1;
+}
+.page-grid span {
+    margin-bottom: 15px;
+}
+.biba {
+    color: black;
+    font-weight: 800;
+}
+.pidor {
+    color: #1085e4;
+}
+
+/*numera*/
+
+.grid-tittle {
+    grid-area: a;
+}
+.grid-item-1 {
+    grid-area: b;
+}
+.grid-item-2 {
+    grid-area: c;
+}
+.grid-item-3 {
+    grid-area: d;
+}
+.grid-item-4 {
+    grid-area: e;
+}
+.grid-item-5 {
+    grid-area: f;
+}
+.grid-item-6 {
+    grid-area: g;
+}
+.grid-text {
+    grid-area: h;
+}
+
+.robot {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
